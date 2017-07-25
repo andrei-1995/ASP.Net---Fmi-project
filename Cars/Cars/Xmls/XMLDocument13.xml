@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car SYSTEM "..\Cars.dtd">
+<car>
+    <manufacturer_bg>Сеат</manufacturer_bg>
+    <manufacturer_en>Seat</manufacturer_en>
+    <model generation = "3-та">Леон Купра</model>        
+    <year_of_production>2016</year_of_production>
+    <body_type>Купе</body_type>
+    <powertrain>
+        <engine fuel = "бензин" number_of_cylinders = "4" position="отпред">
+            <power units = "конски сили">290</power>
+            <torque units = "нютон метри" at="1700-5800об/мин">350</torque>
+            <capacity units = "см3">1984</capacity>
+            <consumption units = "литри/100 км." type = "комбиниран">6.5</consumption>
+            <emissions units = "грама CO2/км." class = "ЕВРО6">149</emissions>
+        </engine>
+        <transmission number_of_gears = "6">автоматична</transmission>
+    </powertrain>
+    <acceleration units = "секунди" type = "0-100км/ч">5.7</acceleration>
+    <maximum_speed units = "км/ч">250</maximum_speed>
+    <fuel_tank_volume units = "литри">50</fuel_tank_volume>
+    <chassi>
+        <front_suspension>независимо пружинно тип McPherson със стабилизатор</front_suspension>
+        <rear_suspension>многолостово независимо окачване</rear_suspension>
+        <front_brakes>дискови вентилирани</front_brakes>
+        <rear_brakes>дискови вентилирани</rear_brakes>
+    </chassi>   
+    <number_of_doors>3</number_of_doors>
+    <number_of_seats>5</number_of_seats>
+    <kerb_weight units = "кг.">1320</kerb_weight>
+    <length units = "мм">4236</length>
+    <width units = "мм">1810</width>
+    <height units = "мм">1423</height>
+    <features>
+        <feature>Антиблокираща система</feature>
+        <feature>Тракшън контрол</feature>
+        <feature>Спортно окачване</feature>
+        <feature>Старт/Стоп система</feature>
+        <feature>Климатроник</feature>
+        <feature>Сензор за дъжд</feature>
+        <feature>Спортни седалки</feature>
+        <feature>Сензори за паркиране</feature>
+        <feature>Отопление на седалките</feature>
+        <feature>Сензор за дъжд</feature>        
+    </features>        
+</car>

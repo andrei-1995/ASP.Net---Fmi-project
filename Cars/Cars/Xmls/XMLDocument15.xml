@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car SYSTEM "..\Cars.dtd">
+<car>
+    <manufacturer_bg>Бентли</manufacturer_bg>
+    <manufacturer_en>Bentley</manufacturer_en>
+    <model generation = "ГТ 2" >Континентал</model>        
+    <year_of_production>2015</year_of_production>
+    <body_type>Купе</body_type>
+    <powertrain>
+        <engine fuel = "бензин" number_of_cylinders = "12" position="отпред">
+            <power units = "конски сили">590</power>
+            <torque units = "нютон метри" at="1700об/мин">720</torque>
+            <capacity units = "см3">5998</capacity>
+            <consumption units = "литри/100 км." type = "комбиниран">14.2</consumption>
+            <emissions units = "грама CO2/км." class = "ЕВРО6">330</emissions>
+        </engine>
+        <transmission number_of_gears = "8">автоматична</transmission>
+    </powertrain>
+    <acceleration units = "секунди" type = "0-100км/ч">4.5</acceleration>
+    <maximum_speed units = "км/ч">319</maximum_speed>
+    <fuel_tank_volume units = "литри">90</fuel_tank_volume>
+    <chassi>
+        <front_suspension>двоен напречен носач</front_suspension>
+        <rear_suspension>многолостово независимо окачване</rear_suspension>
+        <front_brakes>дискови вентилирани</front_brakes>
+        <rear_brakes>дискови вентилирани</rear_brakes>
+    </chassi>        
+    <number_of_doors>2</number_of_doors>
+    <number_of_seats>4</number_of_seats>
+    <kerb_weight units = "кг.">2320</kerb_weight>
+    <length units = "мм">4806</length>
+    <width units = "мм">1944</width>
+    <height units = "мм">1404</height>
+    <features>
+        <feature>Антиблокираща система</feature>
+        <feature>Тракшън контрол</feature>            
+        <feature>Климатроник</feature>
+        <feature>Камера в помощ на паркирането</feature>
+        <feature>Отопление на седалките</feature>
+        <feature>Устройство "свободни ръце"</feature>
+        <feature>Фарове за мъгла</feature>
+        <feature>Светлини за завиване</feature>        
+    </features>        
+</car>

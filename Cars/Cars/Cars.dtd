@@ -1,0 +1,75 @@
+<!ELEMENT car (manufacturer_bg, manufacturer_en, model, year_of_production, body_type, powertrain, acceleration, maximum_speed, fuel_tank_volume, chassi, number_of_doors, number_of_seats, kerb_weight, length, width, height, features)>
+    
+        <!ELEMENT manufacturer_bg (#PCDATA)>
+        
+        <!ELEMENT manufacturer_en (#PCDATA)>
+        
+        <!ELEMENT model (#PCDATA)>
+            <!ATTLIST model generation CDATA #IMPLIED>
+        
+        <!ELEMENT year_of_production (#PCDATA)>
+        
+        <!ELEMENT body_type (#PCDATA)>
+        
+        <!ELEMENT powertrain (engine, transmission)>
+            <!ELEMENT engine (power, torque, capacity, consumption, emissions)>
+                <!ATTLIST engine fuel CDATA #REQUIRED>               
+                <!ATTLIST engine number_of_cylinders CDATA #REQUIRED>
+                <!ATTLIST engine position CDATA #REQUIRED>
+                
+                <!ELEMENT power (#PCDATA)>
+                    <!ATTLIST power units CDATA #IMPLIED>
+                    
+                <!ELEMENT torque (#PCDATA)>
+                    <!ATTLIST torque units CDATA #IMPLIED>
+                    <!ATTLIST torque at CDATA #IMPLIED>
+                    
+                <!ELEMENT capacity (#PCDATA)>
+                    <!ATTLIST capacity units CDATA #IMPLIED>
+                
+                <!ELEMENT consumption (#PCDATA)>
+                    <!ATTLIST consumption units CDATA #IMPLIED>
+                    <!ATTLIST consumption type CDATA #IMPLIED>
+                    
+                <!ELEMENT emissions (#PCDATA)>
+                    <!ATTLIST emissions units CDATA #IMPLIED>
+                    <!ATTLIST emissions class CDATA #IMPLIED>
+                    
+            <!ELEMENT transmission (#PCDATA)>
+                <!ATTLIST transmission number_of_gears CDATA #REQUIRED>
+                
+        <!ELEMENT acceleration (#PCDATA)>
+            <!ATTLIST acceleration units CDATA #IMPLIED>
+            <!ATTLIST acceleration type CDATA #IMPLIED>
+        
+        <!ELEMENT maximum_speed (#PCDATA)>
+            <!ATTLIST maximum_speed units CDATA #IMPLIED>
+        
+        <!ELEMENT fuel_tank_volume (#PCDATA)>
+            <!ATTLIST fuel_tank_volume units CDATA #IMPLIED>
+            
+        <!ELEMENT chassi (front_suspension, rear_suspension, front_brakes, rear_brakes)>
+            <!ELEMENT front_suspension (#PCDATA)>
+            <!ELEMENT rear_suspension (#PCDATA)>
+            <!ELEMENT front_brakes (#PCDATA)>
+            <!ELEMENT rear_brakes (#PCDATA)>
+        
+        <!ELEMENT number_of_doors (#PCDATA)>
+
+        <!ELEMENT number_of_seats (#PCDATA)>
+        
+        <!ELEMENT kerb_weight (#PCDATA)>
+            <!ATTLIST kerb_weight units CDATA #IMPLIED>
+        
+        <!ELEMENT length (#PCDATA)>
+            <!ATTLIST length units CDATA #IMPLIED>
+        
+        <!ELEMENT width (#PCDATA)>
+            <!ATTLIST width units CDATA #IMPLIED>
+        
+        <!ELEMENT height (#PCDATA)>
+            <!ATTLIST height units CDATA #IMPLIED>
+        
+        <!ELEMENT features (feature)+>
+            <!ELEMENT feature (#PCDATA)>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-16"?>
+<car xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <manufacturer_bg>Ауди</manufacturer_bg>
+  <manufacturer_en>Audi</manufacturer_en>
+  <model>РС4</model>
+  <year_of_production>2006</year_of_production>
+  <body_type>Седан</body_type>
+  <powertrain>
+    <engine fuel="бензин" number_of_cylinders="8" position="бензин">
+      <power>420</power>
+      <torque>430</torque>
+      <capacity>4163</capacity>
+      <consumption>13.4</consumption>
+      <emissions>326</emissions>
+    </engine>
+    <transmission number_of_gears="6">ръчна</transmission>
+  </powertrain>
+  <acceleration>4.8</acceleration>
+  <maximum_speed>250</maximum_speed>
+  <fuel_tank_volume>63</fuel_tank_volume>
+  <chassi>
+    <front_suspension>независимо многолостово</front_suspension>
+    <rear_suspension>независимо окачване на трапецовидни носачи</rear_suspension>
+    <front_brakes>дискови вентилирани</front_brakes>
+    <rear_brakes>дискови вентилирани</rear_brakes>
+  </chassi>
+  <number_of_doors>4</number_of_doors>
+  <number_of_seats>5</number_of_seats>
+  <kerb_weight>1650</kerb_weight>
+  <length>4589</length>
+  <width>1816</width>
+  <height>1415</height>
+  <features>
+    <feature>Антиблокираща система</feature>
+    <feature>Тракшън контрол</feature>
+    <feature>Круиз контрол</feature>
+    <feature>Куатро</feature>
+    <feature>Двузонов климатроник</feature>
+    <feature>Вградена система за навигация</feature>
+    <feature>Отопление на седалките</feature>
+    <feature>Система - асистент при паркиране</feature>
+  </features>
+</car>

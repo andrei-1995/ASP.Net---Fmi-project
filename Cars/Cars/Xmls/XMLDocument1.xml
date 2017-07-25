@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car SYSTEM "..\Cars.dtd">
+<car>
+    <manufacturer_bg>Ауди</manufacturer_bg>
+    <manufacturer_en>Audi</manufacturer_en>
+    <model generation = "Б7">РС4</model>        
+    <year_of_production>2006</year_of_production>
+    <body_type>Седан</body_type>
+    <powertrain>
+        <engine fuel = "бензин" number_of_cylinders = "8" position = "отпред">
+            <power units = "конски сили">420</power>
+            <torque units = "нютон метри" at = "5500об/мин">430</torque>
+            <capacity units = "см3">4163</capacity>
+            <consumption units = "литри/100 км." type = "комбиниран">13.4</consumption>
+            <emissions units = "грама CO2/км." class = "ЕВРО4">326</emissions>
+        </engine>
+        <transmission number_of_gears = "6">ръчна</transmission>
+    </powertrain>
+    <acceleration units = "секунди" type = "0-100км/ч">4.8</acceleration>
+    <maximum_speed units = "км/ч">250</maximum_speed>
+    <fuel_tank_volume units = "литри">63</fuel_tank_volume>
+    <chassi>
+        <front_suspension>независимо многолостово</front_suspension>
+        <rear_suspension>независимо окачване на трапецовидни носачи</rear_suspension>
+        <front_brakes>дискови вентилирани</front_brakes>
+        <rear_brakes>дискови вентилирани</rear_brakes>
+    </chassi>        
+    <number_of_doors>4</number_of_doors>
+    <number_of_seats>5</number_of_seats>
+    <kerb_weight units = "кг.">1650</kerb_weight>
+    <length units = "мм">4589</length>
+    <width units = "мм">1816</width>
+    <height units = "мм">1415</height>
+    <features>
+        <feature>Антиблокираща система</feature>
+        <feature>Тракшън контрол</feature>
+        <feature>Круиз контрол</feature>
+        <feature>Куатро</feature>
+        <feature>Двузонов климатроник</feature>
+        <feature>Вградена система за навигация</feature>
+        <feature>Отопление на седалките</feature>
+        <feature>Система - асистент при паркиране</feature>            
+    </features>        
+</car>
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car SYSTEM "..\Cars.dtd">
+<car>
+    <manufacturer_bg>Киа</manufacturer_bg>
+    <manufacturer_en>Kia</manufacturer_en>
+    <model generation = "2-ра" >Сиид</model>        
+    <year_of_production>2013</year_of_production>
+    <body_type>Хечбек</body_type>
+    <powertrain>
+        <engine fuel = "бензин" number_of_cylinders = "4" position="отпред">
+            <power units = "конски сили">204</power>
+            <torque units = "нютон метри" at = "1750об/мин">265</torque>
+            <capacity units = "см3">1591</capacity>
+            <consumption units = "литри/100 км." type = "комбиниран">7.4</consumption>
+            <emissions units = "грама CO2/км." class = "ЕВРО5">171</emissions>
+        </engine>
+        <transmission number_of_gears = "6">ръчна</transmission>
+    </powertrain>
+    <acceleration units = "секунди" type = "0-100км/ч">7.7</acceleration>
+    <maximum_speed units = "км/ч">230</maximum_speed>
+    <fuel_tank_volume units = "литри">53</fuel_tank_volume>
+    <chassi>
+        <front_suspension>винтова пружина</front_suspension>
+        <rear_suspension>винтова пружина</rear_suspension>
+        <front_brakes>дискови вентилирани</front_brakes>
+        <rear_brakes>дискови</rear_brakes>
+    </chassi>        
+    <number_of_doors>3</number_of_doors>
+    <number_of_seats>5</number_of_seats>
+    <kerb_weight units = "кг.">1448</kerb_weight>
+    <length units = "мм">4310</length>
+    <width units = "мм">1780</width>
+    <height units = "мм">1430</height>
+    <features>
+        <feature>Антиблокираща система</feature>                        
+        <feature>Климатроник</feature>       
+        <feature>Спортни седалки</feature>
+        <feature>Парктроник</feature>
+        <feature>Отопление на седалките</feature>
+        <feature>Темпомат</feature>
+        <feature>Навигация</feature>
+        <feature>Сензор за дъжд</feature>
+        <feature>Светлини за завиване</feature>
+        <feature>Фарове за мъгла</feature>
+    </features>        
+</car>  
+

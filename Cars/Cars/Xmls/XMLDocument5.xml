@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car SYSTEM "..\Cars.dtd">
+<car>
+    <manufacturer_bg>Мерцедес</manufacturer_bg>
+    <manufacturer_en>Mercedes</manufacturer_en>
+    <model generation = "6-та" >С63</model>        
+    <year_of_production>2013</year_of_production>
+    <body_type>Седан</body_type>
+    <powertrain>
+        <engine fuel = "бензин" number_of_cylinders = "8" position="отпред">
+            <power units = "конски сили">585</power>
+            <torque units = "нютон метри" at="2250-3750об/мин">900</torque>
+            <capacity units = "см3">5461</capacity>
+            <consumption units = "литри/100 км." type = "комбиниран">10.1</consumption>
+            <emissions units = "грама CO2/км." class = "ЕВРО6">244</emissions>
+        </engine>
+        <transmission number_of_gears = "7">автоматична</transmission>
+    </powertrain>
+    <acceleration units = "секунди" type = "0-100км/ч">4</acceleration>
+    <maximum_speed units = "км/ч">250</maximum_speed>
+    <fuel_tank_volume units = "литри">70</fuel_tank_volume>
+    <chassi>
+        <front_suspension>независимо многолостово</front_suspension>
+        <rear_suspension>независимо многолостово</rear_suspension>
+        <front_brakes>дискови вентилирани</front_brakes>
+        <rear_brakes>дискови вентилирани</rear_brakes>
+    </chassi>        
+    <number_of_doors>4</number_of_doors>
+    <number_of_seats>4</number_of_seats>
+    <kerb_weight units = "кг.">2045</kerb_weight>
+    <length units = "мм">5116</length>
+    <width units = "мм">1899</width>
+    <height units = "мм">1496</height>
+    <features>
+        <feature>Антиблокираща система</feature>
+        <feature>Тракшън контрол</feature>            
+        <feature>Четиризонов климатроник</feature>
+        <feature>Вградена система за навигация</feature>
+        <feature>Отопление на седалките</feature>
+        <feature>Безключово палене</feature>
+        <feature>Система за измиване на фаровете</feature>
+        <feature>Ел. регулиране на седалките</feature>
+        <feature>Система - асистент при паркиране</feature>
+        <feature>Система от камери 360*</feature>
+        <feature>Система за контрол на скоростта(автопилот)</feature>            
+        <feature>Bluetooth \ handsfree система</feature>           
+        <feature>Автоматичен контрол на стабилността</feature>
+    </features>        
+</car>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car SYSTEM "..\Cars.dtd">
+<car>
+    <manufacturer_bg>БМВ</manufacturer_bg>
+    <manufacturer_en>BMW</manufacturer_en>
+    <model generation = "ф10">М5</model>        
+    <year_of_production>2011</year_of_production>
+    <body_type>Седан</body_type>
+    <powertrain>
+        <engine fuel = "бензин" number_of_cylinders = "8" position="отпред">
+            <power units = "конски сили">560</power>
+            <torque units = "нютон метри" at="1500-5750об/мин">680</torque>
+            <capacity units = "см3">4395</capacity>
+            <consumption units = "литри/100 км." type = "комбиниран">9.9</consumption>
+            <emissions units = "грама CO2/км." class = "ЕВРО5">234</emissions>
+        </engine>
+        <transmission number_of_gears = "7">автоматична</transmission>
+    </powertrain>
+    <acceleration units = "секунди" type = "0-100км/ч">4.3</acceleration>
+    <maximum_speed units = "км/ч">250</maximum_speed>
+    <fuel_tank_volume units = "литри">80</fuel_tank_volume>
+    <chassi>
+        <front_suspension>двоен напречен носач</front_suspension>
+        <rear_suspension>многолостово независимо окачване</rear_suspension>
+        <front_brakes>дискови вентилирани</front_brakes>
+        <rear_brakes>дискови вентилирани</rear_brakes>
+    </chassi>        
+    <number_of_doors>4</number_of_doors>
+    <number_of_seats>5</number_of_seats>
+    <kerb_weight units = "кг.">1870</kerb_weight>
+    <length units = "мм">4910</length>
+    <width units = "мм">1891</width>
+    <height units = "мм">1457</height>
+    <features>
+        <feature>Антиблокираща система</feature>
+        <feature>Тракшън контрол</feature>
+        <feature>Система за контрол на скоростта(автопилот) - Круиз контрол</feature>
+        <feature>Четиризонов климатроник</feature>
+        <feature>Вградена система за навигация</feature>
+        <feature>Отопление на седалките</feature>
+        <feature>Безключово палене</feature>
+        <feature>Система за измиване на фаровете</feature>
+        <feature>Система - асистент при паркиране</feature>                       
+        <feature>Система за подпомагане на спирането</feature>
+        <feature>Ел. регулиране на окачването</feature>
+    </features>        
+</car>
+

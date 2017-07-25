@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car SYSTEM "..\Cars.dtd">
+<car>
+    <manufacturer_bg>Хонда</manufacturer_bg>
+    <manufacturer_en>Honda</manufacturer_en>
+    <model generation = "7-ма">Сивик</model>        
+    <year_of_production>2001</year_of_production>
+    <body_type>Хечбек</body_type>
+    <powertrain>
+        <engine fuel = "бензин" number_of_cylinders = "4" position="отзад">
+            <power units = "конски сили">200</power>
+            <torque units = "нютон метри" at="5900об/мин">196</torque>
+            <capacity units = "см3">1998</capacity>
+            <consumption units = "литри/100 км." type = "комбиниран">8.9</consumption>
+            <emissions units = "грама CO2/км." class = "ЕВРО4">212</emissions>
+        </engine>
+        <transmission number_of_gears = "6">ръчна</transmission>
+    </powertrain>
+    <acceleration units = "секунди" type = "0-100км/ч">6.8</acceleration>
+    <maximum_speed units = "км/ч">235</maximum_speed>
+    <fuel_tank_volume units = "литри">50</fuel_tank_volume>
+    <chassi>
+        <front_suspension>амортисьорна стойка</front_suspension>
+        <rear_suspension>напречен стабилизатор</rear_suspension>
+        <front_brakes>дискови вентилирани</front_brakes>
+        <rear_brakes>дискови</rear_brakes>
+    </chassi>        
+    <number_of_doors>3</number_of_doors>
+    <number_of_seats>5</number_of_seats>
+    <kerb_weight units = "кг.">1200</kerb_weight>
+    <length units = "мм">4135</length>
+    <width units = "мм">1695</width>
+    <height units = "мм">1425</height>
+    <features>
+        <feature>Антиблокираща система</feature>        
+        <feature>Електрически странични огледала</feature>
+        <feature>Имобилайзер</feature>       
+        <feature>Спортно окачване</feature>
+        <feature>Спортни седалки</feature>
+    </features>        
+</car>
+

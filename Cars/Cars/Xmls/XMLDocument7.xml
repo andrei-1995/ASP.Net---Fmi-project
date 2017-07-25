@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car SYSTEM "..\Cars.dtd">
+<car>
+    <manufacturer_bg>Митсубиши</manufacturer_bg>
+    <manufacturer_en>Mitsubishi</manufacturer_en>
+    <model generation = "Еволюшън 10" >Лансер</model>        
+    <year_of_production>2007</year_of_production>
+    <body_type>Седан</body_type>
+    <powertrain>
+        <engine fuel = "бензин" number_of_cylinders = "4" position="отпред">
+            <power units = "конски сили">295</power>
+            <torque units = "нютон метри" at="3500об/мин">366</torque>
+            <capacity units = "см3">1997</capacity>
+            <consumption units = "литри/100 км." type = "комбиниран">10.5</consumption>
+            <emissions units = "грама CO2/км." class = "ЕВРО5">243</emissions>
+        </engine>
+        <transmission number_of_gears = "5">ръчна</transmission>
+    </powertrain>
+    <acceleration units = "секунди" type = "0-100км/ч">4.8</acceleration>
+    <maximum_speed units = "км/ч">274</maximum_speed>
+    <fuel_tank_volume units = "литри">55</fuel_tank_volume>
+    <chassi>
+        <front_suspension>амортисьорна стойка</front_suspension>
+        <rear_suspension>напречен носач</rear_suspension>
+        <front_brakes>дискови вентилирани</front_brakes>
+        <rear_brakes>дискови</rear_brakes>
+    </chassi>        
+    <number_of_doors>4</number_of_doors>
+    <number_of_seats>5</number_of_seats>
+    <kerb_weight units = "кг.">1560</kerb_weight>
+    <length units = "мм">4505</length>
+    <width units = "мм">1810</width>
+    <height units = "мм">1480</height>
+    <features>
+        <feature>Антиблокираща система</feature>                        
+        <feature>Климатроник</feature>                        
+        <feature>4x4</feature>           
+        <feature>Сензор за дъжд</feature>
+        <feature>Ел. стъкла</feature>
+        <feature>Спортни седалки</feature>
+        <feature>Спортно окачване</feature>
+    </features>        
+</car>
+

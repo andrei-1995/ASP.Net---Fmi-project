@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car SYSTEM "..\Cars.dtd">
+<car>
+    <manufacturer_bg>БМВ</manufacturer_bg>
+    <manufacturer_en>BMW</manufacturer_en>
+    <model generation = "Е52">З8</model>        
+    <year_of_production>2000</year_of_production>
+    <body_type>Кабриолет</body_type>
+    <powertrain>
+        <engine fuel = "бензин" number_of_cylinders = "8" position="отпред">
+            <power units = "конски сили">400</power>
+            <torque units = "нютон метри" at="3800об/мин">500</torque>
+            <capacity units = "см3">4941</capacity>
+            <consumption units = "литри/100 км." type = "комбиниран">14.5</consumption>
+            <emissions units = "грама CO2/км." class = "ЕВРО3">358</emissions>
+        </engine>
+        <transmission number_of_gears = "6">ръчна</transmission>
+    </powertrain>
+    <acceleration units = "секунди" type = "0-100км/ч">4.7</acceleration>
+    <maximum_speed units = "км/ч">250</maximum_speed>
+    <fuel_tank_volume units = "литри">73</fuel_tank_volume>
+    <chassi>
+        <front_suspension>амортисьорна стойка</front_suspension>
+        <rear_suspension>винтова пружина</rear_suspension>
+        <front_brakes>дискови вентилирани</front_brakes>
+        <rear_brakes>дискови</rear_brakes>
+    </chassi>        
+    <number_of_doors>2</number_of_doors>
+    <number_of_seats>2</number_of_seats>
+    <kerb_weight units = "кг.">1660</kerb_weight>
+    <length units = "мм">4400</length>
+    <width units = "мм">1830</width>
+    <height units = "мм">1317</height>
+    <features>
+        <feature>Антиблокираща система</feature>
+        <feature>Тракшън контрол</feature>      
+        <feature>Климатик</feature>        
+        <feature>Отопление на седалките</feature>
+        <feature>Спортно окачване</feature>
+        <feature>Спортни седалки</feature>
+        <feature>Фарове за мъгла</feature>
+        <feature>Темпомат</feature>
+        <feature>Навигация</feature>
+    </features>        
+</car>
